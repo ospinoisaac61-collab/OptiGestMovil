@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textoBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/botonProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Productos" />
+
+    <Button
+        android:id="@+id/botonProveedores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proveedores" />
+
+    <Button
+        android:id="@+id/botonCompras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compras" />
+
+    <Button
+        android:id="@+id/botonSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Cerrar sesión" />
+</LinearLayout>
